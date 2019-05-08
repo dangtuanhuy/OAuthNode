@@ -11,8 +11,8 @@ const app = express();
 app.set('view engine', 'ejs');
 
 // connect to mongodb
-mongoose.connect(keys.mongodb.dbURI, () => {
-    console.log('connected to mongodb');
+mongoose.connect(keys.mongodb.dbURI, (err) => {
+    console.log(err);
 });
 
 // set up routes
