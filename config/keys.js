@@ -7,6 +7,6 @@ module.exports = {
         dbURI: 'mongodb+srv://huy:huy@huydangtuan-xa3ly.mongodb.net/test?retryWrites=true'
     },
     session: {
-        cookieKey: 'thenetninjaisawesomeiguess'
+        cookieKey: 'Hachibi'
     }
 };
